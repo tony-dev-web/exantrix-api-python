@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exantrix-api"
+version = "1.0.0"
+description = "Client Python de l'API vendeur Exantrix : produits, stock, commandes, expedition et webhooks signes de la marketplace exantrix.com (impression 3D, DTF, textile)."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [{name = "Exantrix", email = "coucou@exantrix.com"}]
+keywords = ["exantrix", "marketplace", "api", "ecommerce", "3d-printing", "dtf", "woocommerce", "prestashop", "shopify", "webhook"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Topic :: Internet :: WWW/HTTP", "Intended Audience :: Developers"]
+dependencies = ["requests>=2.25"]
+
+[project.urls]
+Homepage = "https://exantrix.com/extensions/api"
+Documentation = "https://exantrix.com/extensions/api"
+Source = "https://github.com/tony-dev-web/exantrix-api-python"
+Marketplace = "https://exantrix.com"
+
+[tool.setuptools]
+packages = ["exantrix_api"]
